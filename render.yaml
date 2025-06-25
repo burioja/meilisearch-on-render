@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: meilisearch
+    env: docker
+    plan: free
+    envVars:
+      - key: MEILI_MASTER_KEY
+        value: supersecretkey
+    dockerfilePath: Dockerfile
