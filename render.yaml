@@ -6,4 +6,4 @@ services:
     envVars:
       - key: MEILI_MASTER_KEY
         value: supersecretkey
-    dockerfilePath: Dockerfile
+    dockerfilePath: dockerfile
