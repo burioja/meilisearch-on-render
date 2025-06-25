@@ -1,4 +1,4 @@
-FROM getmeili/meilisearch:v1.8
+FROM getmeili/meilisearch:v1.8.4
 
 ENV MEILI_NO_ANALYTICS=true
 ENV MEILI_MASTER_KEY=${supersecretkey}
